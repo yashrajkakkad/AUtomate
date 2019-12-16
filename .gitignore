@@ -1,0 +1,8 @@
+venv
+.env
+*.sqlite3
+.idea
+.vscode
+__pycache__
+chromedriver
+geckodriver.log
