@@ -1,6 +1,6 @@
 # AUtomate
 
-AUtomate scrapes your attendance and marks from AURIS (Ahmedabad University Resource Information System) from your behalf and stores them in a database. 
+AUtomate scrapes your attendance and marks from AURIS (Ahmedabad University Resource Information System) on your behalf and stores them in a database. 
 
 It controls your web browser to do several things for you. As you might expect, it uses Selenium to control the browser and BeautifulSoup4 to do the required scraping work.
 
