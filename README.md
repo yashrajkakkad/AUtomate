@@ -25,10 +25,10 @@ python database.py
 ```
   - Download [ChromeDriver](https://chromedriver.chromium.org/downloads) (Web Driver for Google Chrome) and place it in the main folder. Make sure that it is called "chromedriver".
   - Create a new file called '.env' and add the following (replace yourname@email.com with your e-mail address and yourpassword with your Ahmedabad University Mail password **(not AURIS password)**:
-'''
+```
 EMAIL=yourname@email.com
 PASSWORD=yourpassword
-'''
+```
   - Run the main script. If running for the first time, it'll add all the courses and attendance data. Thereafter, it will only show what has changed from the last time.
 ```sh
 python auris.py
