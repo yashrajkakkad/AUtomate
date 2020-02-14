@@ -25,7 +25,7 @@ Features:
   ```
   - Execute the bundled script to set up everything for the first run.
   ```sh
-  python setup.py
+  python init.py
   ```
   - For subsequent runs, just execute the main python script.
   ```sh
