@@ -51,7 +51,7 @@ time.sleep(12)
 driver.switch_to.window(main_window)
 # temp_element = WebDriverWait(driver, 10).until(
 #     EC.presence_of_element_located((By.CLASS_NAME, 'logo')))
-print("Fetching attendance")
+print("\nFetching attendance")
 driver.get('https://auris.ahduni.edu.in/core-emli/code/student_portal/home.php?page=quick_link/attendence')
 attendance_html = driver.page_source
 
@@ -73,7 +73,7 @@ for table in tables:
         # print(raw_data)
         Attendance.insert_attendance(raw_data)
 
-print("Fetching scores")
+print("\nFetching scores")
 driver.get('https://auris.ahduni.edu.in/core-emli/code/student_portal/home.php?page=notification/exam_result')
 temp_element = WebDriverWait(driver, 10).until(
     EC.presence_of_element_located((By.CLASS_NAME, 'logo')))

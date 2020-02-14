@@ -9,8 +9,30 @@ Features:
   - Notifies if marks of a component are added (eg. Quiz 1 marks in Linear Algebra)
   - Adds subjects automatically
 
+# Requirements
+
+- Python
+- pip (package installer for Python). See [here](https://pip.pypa.io/en/stable/installing/) for installation.
+
 
 # Installation
+
+## Linux/OSX
+  - Clone the repository.
+  ```sh
+  git clone https://github.com/yashrajkakkad/AUtomate.git
+  cd AUtomate
+  ```
+  - Execute the bundled script to set up everything for the first run.
+  ```sh
+  python setup.py
+  ```
+  - For subsequent runs, just execute the main python script.
+  ```sh
+  python auris.py
+  ```
+
+## Windows  
   - Clone this repository
 ```sh
 git clone https://github.com/yashrajkakkad/AUtomate.git
@@ -24,7 +46,7 @@ pip install -r requirements.txt
 python database.py
 ```
   - Download [ChromeDriver](https://chromedriver.chromium.org/downloads) (Web Driver for Google Chrome) and place it in the main folder. Make sure that it is called "chromedriver".
-  - Create a new file called '.env' and add the following (replace yourname@email.com with your e-mail address and yourpassword with your Ahmedabad University Mail password **(not AURIS password)**:
+  - Create a new file called '.env' and add the following (replace `yourname@email.com` with your e-mail address and `yourpassword` with your Ahmedabad University Mail password **(not AURIS password)**:
 ```
 EMAIL=yourname@email.com
 PASSWORD=yourpassword
